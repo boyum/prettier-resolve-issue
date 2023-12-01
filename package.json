@@ -1,0 +1,14 @@
+{
+  "name": "prettier-resolve-issue",
+  "version": "1.0.0",
+  "scripts": {
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^4.0.0-alpha.3",
+    "prettier-config": "github:boyum/prettier-config"
+  },
+  "prettier": "prettier-config"
+}
